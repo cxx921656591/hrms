@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'HRMS.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'HRMS',
+        'NAME': 'hrms',
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': '127.0.0.1',
